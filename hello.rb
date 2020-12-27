@@ -7,9 +7,10 @@ begin
     sleep 2
     radiobutton_2 = driver.find_element(css: "input[value=option2]")
     radiobutton_2.click
-    radiobutton_3 = driver.find_element(css: "input[value=option3dsfd]")
+    radiobutton_3 = driver.find_element(css: "input[value=option3]")
     radiobutton_3.click
     sleep 3
 rescue 
-    driver.quit
+   puts ("somthings")
 end
+ driver.quit
