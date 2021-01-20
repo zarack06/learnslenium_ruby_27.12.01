@@ -1,0 +1,4 @@
+# test_object: {id: 'username'}
+munu_shop: {id: 'menu-item-40'}
+count_product: {class: 'woocommerce-LoopProduct-link'}
+btn_home: {xpath: "//a[contains(text(),'Home')]"} 
